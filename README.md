@@ -1,4 +1,4 @@
-Snippets
+Java Code
 ========
 
-This is a repo with a couple of snippets of code
+Samples of code for refreshing memory and maybe templates
