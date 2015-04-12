@@ -13,11 +13,23 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class addText {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException{
+		
+		String filePath = "C:\\test\\sample.txt";
+		String message = "Hello world";
+		
+		addTo(filePath,message);
+		
+	}
+	
+	
+	protected static void addTo(String filePath, String message) throws IOException{
+		
 		BufferedWriter out = null;
+		
 		try {
-		    out = new BufferedWriter(new FileWriter("src/LittleThings/test", true));
-		    out.write("No");
+		    out = new BufferedWriter(new FileWriter(filePath, true));
+		    out.write(message);
 		} catch (IOException e) {
 		    // error processing code
 		} finally {
@@ -26,5 +38,6 @@ public class addText {
 		        System.out.println("Finished");
 		    }
 		}
+		
 	}
 }
