@@ -12,5 +12,7 @@ import java.util.*;
         
         if(Miny == 0)System.out.println("Moe");
         else System.out.println("Something witty");
+        
+        //if(Randy.nextBoolean())
     }
  }
