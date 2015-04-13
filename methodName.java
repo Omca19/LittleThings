@@ -2,7 +2,7 @@ package LittleThings;
 
 /**
  * Gets the name of the current running method
- *	Prints:	main
+ *	Prints:		    main
  *			    loop
  *			    loop
  *			    main
