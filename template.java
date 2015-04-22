@@ -6,7 +6,7 @@ public class template {
 		Scanner in =  new Scanner(System.in);
 		
 		String input = in.nextLine();
-		int input1 = in.nextInt();
+		int n = in.nextInt();
 		
 		
 		
